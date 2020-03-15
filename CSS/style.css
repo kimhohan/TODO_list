@@ -1,0 +1,45 @@
+body{
+    background-color: burlywood;
+}
+  
+body{
+    text-align: center;
+    color:white;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.clicked{
+    color : blue;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    text-align: center;
+    display: block;
+}
+
+@keyframes fadeIN{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIN .5s linear;
+}
